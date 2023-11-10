@@ -9,7 +9,7 @@ export const LoginPage = () => {
       <form action="http://localhost:5050/login" method="post">
         <label>
           <span>Login</span>
-          <input type="text" name="login" />
+          <input type="text" name="email" />
         </label>
         <label>
           <span>Password</span>
@@ -23,7 +23,7 @@ export const LoginPage = () => {
       <form action="http://localhost:5050/signup" method="post">
         <label>
           <span>Login</span>
-          <input type="text" name="login" />
+          <input type="text" name="email" />
         </label>
         <label>
           <span>Password</span>

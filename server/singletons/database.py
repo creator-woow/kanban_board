@@ -13,7 +13,7 @@ class Database:
             database=os.getenv("DB_NAME"),
             user=os.getenv("DB_USER"),
             password=os.getenv("DB_PASSWORD"),
-            host=os.getenv("DB_HOST"),
+            host="database",
             port=os.getenv("DB_PORT"),
             cursor_factory=psycopg2.extras.RealDictCursor
         )
